@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+body{
+    background-color: whitesmoke
+}
+
+/* aca comienza el style del popup 1 */
+
+.contenedor-popup-1{
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: white;
+    height: 350px;
+    width: 360px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#close-window-button-popup-1, #close-window-img-popup-1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    font-size: 0px;
+    float: right;
+    padding: 2px;
+}
+
+#close-window-img-popup-1:hover{
+    background-color: #e7bbb5;
+}
+
+.contenedor-img-popup-1{
+    margin: auto;
+    text-align: center;
+}
+
+.contenedorP-popup-1{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#texto-popup-1{
+    margin: 0 20px
+}
+
+.contenedorBoton-popup-1{
+    margin: auto;
+    text-align: center;
+}
+
+#boton_aceptar{
+    background-color: #ed6755;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 12em;
+    box-shadow: 0 10px 12px #ed6755;
+}
+
+#boton_aceptar:hover{
+    background-color: #58261f;
+    box-shadow: 0 10px 12px #58261f;
+}
+
+/* aca comienza el style del popup 2 */
+
+.contenedor-popup-2{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: white;
+    height: 350px;
+    width: 360px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#close-window-button-popup-2, #close-window-img-popup-2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    font-size: 0px;
+    float: right;
+    padding: 2px;
+}
+
+#close-window-img-popup-2:hover{
+    background-color: #728eaa;
+}
+ 
+.contenedor-img-popup-2{
+    margin: auto;
+    text-align: center;
+}
+
+.contenedorP-popup-2{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#texto-popup-2{
+    margin: 0 60px
+}
+
+.contenedorBoton-popup-2{
+    margin: auto;
+    text-align: center;
+}
+ 
+#botonAmpliarSesion{
+    background-color: #2C3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 12em;
+    box-shadow: 0 10px 12px #2c3e50;
+}
+
+#botonAmpliarSesion:hover{
+    background-color: #5980a7;
+    box-shadow: 0 10px 12px #5980a7;
+}
